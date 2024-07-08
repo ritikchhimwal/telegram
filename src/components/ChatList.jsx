@@ -51,7 +51,7 @@ const ChatList = ({ onSelectChat }) => {
   );
 
   return (
-    <div className="flex flex-col overflow-y-scroll cursor-pointer h-100">
+    <div className="flex flex-col overflow-y-scroll cursor-pointer h-100">{console.log(setSearchTerm)}
       {filteredChats.map((chat) => (
         <div
           key={chat.id}
